@@ -9,7 +9,7 @@ body {
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
-}
+}|
 
 
 /* ----------NAVIGATION  BAR--------------- */
@@ -213,7 +213,7 @@ h1{
 
 .cake-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
     margin: 0 auto;
 }
@@ -343,17 +343,10 @@ h1{
         text-align: center;
     }
     .cake-grid {
-        grid-template-columns: 1fr 1fr; /* fallback: 2 per row */
-
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-
-@media (max-width: 710px) {
-    .logo{
-        font-size: 1.2em;
-    }
-}
 
 @media (max-width: 400px) {
     .cake-grid{

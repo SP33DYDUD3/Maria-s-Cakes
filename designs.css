@@ -29,6 +29,7 @@
 .pastries-grid img {
     width: 100%;
     height: auto;
+    aspect-ratio: 9 / 18;
     object-fit: cover;
     margin-bottom: 1rem;
     border-radius: 5px;
