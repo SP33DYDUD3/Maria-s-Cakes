@@ -22,13 +22,14 @@
     transition: transform 0.2s ease;
 }
 
-.pastries-grid img:hover {
+.pastries-grid2 img:hover {
     transform: translateY(-5px);
 }
 
 .pastries-grid img {
     width: 100%;
     height: auto;
+    aspect-ratio: 1/1;
     object-fit: cover;
     margin-bottom: 1rem;
     border-radius: 5px;
